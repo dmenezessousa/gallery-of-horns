@@ -1,5 +1,11 @@
 ## Lab01 - 9/19/2022
 
+-Created a new repository on GitHub
+-Cloned my local machine files to my GitHub repository
+-Created new react components
+-Used the react componenets to create a new web page
+
+
 ## Lab02 - 9/20/2022
 #### Feature #1: Display images
 - Estimate of time needed to complete: 30 minutes

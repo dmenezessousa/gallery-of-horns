@@ -1,5 +1,5 @@
 import React from "react";
-
+import HornedBeast from "./HornedBeast";
 const animalArray = [
   {
     _id: 1,
@@ -36,6 +36,14 @@ class HornedBeats extends React.Component {
   render() {
     return (
       <>
+        <HornedBeast
+          title={"UniWhal"}
+          image_url={
+            "http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"
+          }
+          description={"A unicorn and a narwhal nuzzling their horns"}
+        />
+
         {animalArray.map((value) => {
           return (
             <div>

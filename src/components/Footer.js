@@ -4,7 +4,7 @@ class Footer extends React.Component {
   render() {
     return (
       <>
-        <p>Author: Diego Sousa</p>
+        <p className="text-center p-3">&copy; Diego Sousa</p>
       </>
     );
   }

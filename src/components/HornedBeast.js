@@ -11,7 +11,7 @@ class HornedBeast extends React.Component {
   }
 
   //create a function to increment the number of times an button is clicked
-  handleClick = () => {
+  handleClick = (e) => {
     this.setState({
       ratings: this.state.ratings + "❤️",
     });
@@ -20,8 +20,12 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <>
-        <Card style={{ width: "18rem" }} className="mx-auto my-5">
+        <Card style={{ width: "18rem" }}>
           <Card.Img
+            style={{ height: "15rem" }}
+            onClick={(e) => {
+              this.props.setShowModalTrue(this.props.id);
+            }}
             variant="top"
             src={this.props.image_url}
             alt={this.props.title}

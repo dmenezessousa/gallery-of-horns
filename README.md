@@ -36,3 +36,14 @@
 - Start time: 5:00pm est
 - Finish time: 7:20pm est
 - Actual time needed to complete: 2 hours 20 minutes
+
+
+## Lab04 - 9/22/2022
+
+#### Feature #1: Filter by Numbers of Horns
+
+- Estimate of time needed to complete: 1 hour
+- Start time: 5:00pm est
+- Finish time: 7:20pm est
+- Actual time needed to complete: 2 hours 20 minutes
+
